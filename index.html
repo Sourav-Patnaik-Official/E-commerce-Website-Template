@@ -1,0 +1,1101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="icon" href="./wrong logo.png" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <title>TheWR0NG Mall</title>
+  </head>
+  <body>
+    <!-- Primary NavBar starts -->
+    <header class="PNav navbar navbar-expand-lg navbar-light" id="primenav">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img
+            src="./Wrong-Transparent-PNG.png"
+            alt="wrong logo"
+            height="30px"
+            width="40px"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <div class="nav-loc d-flex align-items-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="35"
+                    height="35"
+                    fill="currentColor"
+                    class="bin pe-2"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"
+                    />
+                  </svg>
+                  <div class="loc-w ms-2">
+                    <h6 class="primary-subheading">Location</h6>
+                    <p class="primary-text">Bengaluru</p>
+                  </div>
+                </div>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <div class="search-bar">
+                <div class="input-group mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="SEARCH"
+                    aria-label="Recipient's username"
+                    aria-describedby="button-addon2"
+                  />
+                  <button class="btn btn-dark" type="button" id="button-addon2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-search-heart"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M6.5 4.482c1.664-1.673 5.825 1.254 0 5.018-5.825-3.764-1.664-6.69 0-5.018Z"
+                      />
+                      <path
+                        d="M13 6.5a6.471 6.471 0 0 1-1.258 3.844c.04.03.078.062.115.098l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1.007 1.007 0 0 1-.1-.115h.002A6.5 6.5 0 1 1 13 6.5ZM6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11Z"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </li>
+
+            <li class="nav-item d-flex">
+              <a class="nav-link" href="#">
+                <div class="sign-in">
+                  <p class="primary-text">HELLO</p>
+                  <h6 class="primary-subheading">SIGN IN</h6>
+                </div>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <div class="order">
+                  <p class="primary-text">RETURNS</p>
+                  <h6 class="primary-subheading">& ORDERS</h6>
+                </div>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <div class="cart d-flex align-items-center justify-content-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    fill="currentColor"
+                    class="bin1"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"
+                    />
+                  </svg>
+                  <h6 class="primary-subheading ms-2">CART</h6>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <!-- Primary NavBar Ends -->
+
+    <!-- Secondarynav Start -->
+    <div class="PNav1">
+      <div class="dropdown">
+        <button class="dropbtn" id="secondbtn">ALL</button>
+        <div class="dropdown-content">
+          <a href="#">T-shirts,Shirts,Pants</a>
+          <a href="#">TV,Laptops,Mobiles</a>
+          <a href="#">Sneakers,Shoes,Slippers</a>
+          <a href="#">Sofas,Dinning Set,Beds</a>
+          <a href="#">Atta,Rice,Oils,Sweets</a>
+          <a href="#">Gym And Sports Equipments</a>
+          <a href="#">Board Games And Puzzles</a>
+          <a href="#">Car And Bike Accessories</a>
+          <a href="#">More....</a>
+        </div>
+      </div>
+      <a href="#fashion12">Fashion</a>
+      <a href="#footwear1">Footwear</a>
+      <a href="#Appliances">Electrical And electronic </a>
+      <a href="#decors">Home Decorators</a>
+      <a href="#bike">Car And Bike</a>
+      <a href="#chua">Kids</a>
+      <a href="#rasan">Groceries</a>
+      <div class="Search">
+        <a href="#primenav">
+          <button class="dropbtn" id="#secondbtn">Search Bar</button>
+        </a>
+      </div>
+    </div>
+
+    <!-- SecondaryNav Ends -->
+
+    <!-- adbar starts -->
+    <div
+      id="carouselExampleAutoplaying"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="./TallHero_3000X1200_Unrec._CB593464763_.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img src="./bottle.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="./fb.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="./ks.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="./phone.jpg" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- adbar ends -->
+
+    <!-- HOME SECTION STARTS -->
+    <div class="homemain" id="fashion12">
+      <div class="homesec">
+        <h1 class="headhome">Sale on Men Fashion 50%</h1>
+        <div class="hs">
+          <a href="">
+            <img src="./f.jpg" alt="" class="home1" />
+            <p class="p1">Men Clothings</p>
+          </a>
+
+          <a href="">
+            <img src="./w.jpg" alt="" class="home1" />
+            <p class="p1">Men Watch</p>
+          </a>
+
+          <a href="" class="p2"> Explore More -></a>
+        </div>
+
+        <div class="sh">
+          <a href="">
+            <img src="./b.jpg" alt="" class="home1" />
+            <p class="p1">Men Bags</p>
+          </a>
+          <a href="">
+            <img src="./ms.jfif" alt="" class="home1" />
+            <p class="p1">Men Formals</p>
+          </a>
+        </div>
+      </div>
+
+      <div class="homesec">
+        <h1 class="headhome">Sale on Women Fashion 50%</h1>
+        <div class="hs">
+          <a href="">
+            <img src="./fw.jpg" alt="" class="home1" />
+            <p class="p1">Women Clothings</p>
+          </a>
+
+          <a href="">
+            <img src="./wj.jpg" alt="" class="home1" />
+            <p class="p1">Women Watch</p>
+          </a>
+
+          <a href="" class="p2"> Explore More -></a>
+        </div>
+
+        <div class="sh">
+          <a href="">
+            <img src="./ww.jpg" alt="" class="home1" />
+            <p class="p1">Women Bags</p>
+          </a>
+          <a href="">
+            <img src="./ws.avif" alt="" class="home1" />
+            <p class="p1">Women Formals</p>
+          </a>
+        </div>
+      </div>
+
+      <div class="homesec">
+        <h1 class="headhome">Women Jewllery 20% off</h1>
+        <div class="hs">
+          <a href="">
+            <img src="./e.webp" alt="" class="home1" />
+            <p class="p1">Women Earings</p>
+          </a>
+
+          <a href="">
+            <img src="./r.webp" alt="" class="home1" />
+            <p class="p1">Women Rings</p>
+          </a>
+
+          <a href="" class="p2"> Explore More -></a>
+        </div>
+
+        <div class="sh">
+          <a href="">
+            <img src="./c.webp" alt="" class="home1" />
+            <p class="p1">Women Necklace</p>
+          </a>
+          <a href="">
+            <img src="./ba.webp" alt="" class="home1" />
+            <p class="p1">Women Bangles</p>
+          </a>
+        </div>
+      </div>
+
+      <div class="homesec">
+        <h1 class="headhome">Men Fashion Accessories 30% off</h1>
+        <div class="hs">
+          <a href="">
+            <img src="./t.jpg" alt="" class="home1" />
+            <p class="p1">Tie</p>
+          </a>
+
+          <a href="">
+            <img src="./brace.avif" alt="" class="home1" />
+            <p class="p1">Bracelet</p>
+          </a>
+
+          <a href="" class="p2"> Explore More -></a>
+        </div>
+
+        <div class="sh">
+          <a href="">
+            <img src="./sun.jpg" alt="" class="home1" />
+            <p class="p1">Sunglasses</p>
+          </a>
+          <a href="">
+            <img src="./mask.jpeg" alt="" class="home1" />
+            <p class="p1">Masks</p>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="homemain" id="footwear1">
+      <div class="homesec">
+        <h1 class="headhome">Sale on Footwear 20%</h1>
+        <div class="hs">
+          <a href="">
+            <img src="./nike.webp" alt="" class="home1" />
+            <p class="p1">Nike Shoes</p>
+          </a>
+
+          <a href="">
+            <img src="./puma.webp" alt="" class="home1" />
+            <p class="p1">Puma Shoes</p>
+          </a>
+
+          <a href="" class="p2"> Explore More -></a>
+        </div>
+
+        <div class="sh">
+          <a href="">
+            <img src="./adi.webp" alt="" class="home1" />
+            <p class="p1">Addidas Shoes</p>
+          </a>
+          <a href="">
+            <img src="./gucci.webp" alt="" class="home1" />
+            <p class="p1">Gucci Shoes</p>
+          </a>
+        </div>
+      </div>
+
+      <div class="homesec">
+        <h1 class="headhome">Sale on Socks 5%</h1>
+        <div class="hs">
+          <a href="">
+            <img src="./nsocks.png" alt="" class="home1" />
+            <p class="p1">Full Socks</p>
+          </a>
+
+          <a href="">
+            <img src="./asocks.avif" alt="" class="home1" />
+            <p class="p1">Ankle socks</p>
+          </a>
+
+          <a href="" class="p2"> Explore More -></a>
+        </div>
+
+        <div class="sh">
+          <a href="">
+            <img src="./lsocks.jpg" alt="" class="home1" />
+            <p class="p1">Loafer Socks</p>
+          </a>
+          <a href="">
+            <img src="./legsocks.jpg" alt="" class="home1" />
+            <p class="p1">Leg Warmer Socks</p>
+          </a>
+        </div>
+      </div>
+
+      <div class="homesec">
+        <h1 class="headhome">Sale on More Types of Footwear</h1>
+        <div class="hs">
+          <a href="">
+            <img src="./pacflip.jpg" alt="" class="home1" />
+            <p class="p1">FlipFlops</p>
+          </a>
+
+          <a href="">
+            <img src="./heel.avif" alt="" class="home1" />
+            <p class="p1">heels</p>
+          </a>
+
+          <a href="" class="p2"> Explore More -></a>
+        </div>
+
+        <div class="sh">
+          <a href="">
+            <img src="./loaf.webp" alt="" class="home1" />
+            <p class="p1">Loafers</p>
+          </a>
+          <a href="">
+            <img src="./sandals.avif" alt="" class="home1" />
+            <p class="p1">Sandals</p>
+          </a>
+        </div>
+      </div>
+
+      <div class="homesec">
+        <h1 class="headhome">10% of on Formal Shoes</h1>
+        <div class="hs">
+          <a href="">
+            <img src="./lee.webp" alt="" class="home1" />
+            <p class="p1">Lee Cooper Shoes</p>
+          </a>
+
+          <a href="">
+            <img src="./wood.webp" alt="" class="home1" />
+            <p class="p1">WoodLand Shoes</p>
+          </a>
+
+          <a href="" class="p2"> Explore More -></a>
+        </div>
+
+        <div class="sh">
+          <a href="">
+            <img src="./loui.avif" alt="" class="home1" />
+            <p class="p1">Louis Philippe</p>
+          </a>
+          <a href="">
+            <img src="./steve.avif" alt="" class="home1" />
+            <p class="p1">Steve Madden</p>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="homemain" id="Appliances">
+      <div class="homesec">
+        <h1 class="headhome">Flat 10% off on Electrical appliances</h1>
+        <div class="hs">
+          <a href="">
+            <img src="./fridges.jpg" alt="" class="home1" />
+            <p class="p1">Fridges</p>
+          </a>
+
+          <a href="">
+            <img src="./washingmachine.jpg" alt="" class="home1" />
+            <p class="p1">Washing Machines</p>
+          </a>
+
+          <a href="" class="p2"> Explore More -></a>
+        </div>
+
+        <div class="sh">
+          <a href="">
+            <img src="./ceilingfan.webp" alt="" class="home1" />
+            <p class="p1">Ceiling Fans</p>
+          </a>
+          <a href="">
+            <img src="./ringlight.jpg" alt="" class="home1" />
+            <p class="p1">Ring Lights</p>
+          </a>
+        </div>
+      </div>
+
+      <div class="homesec">
+        <h1 class="headhome">Sale on TV,Laptops and More</h1>
+        <div class="hs">
+          <a href="">
+            <img src="./tv.jpg" alt="" class="home1" />
+            <p class="p1">TVs</p>
+          </a>
+
+          <a href="">
+            <img src="./camera.avif" alt="" class="home1" />
+            <p class="p1">Cameras</p>
+          </a>
+
+          <a href="" class="p2"> Explore More -></a>
+        </div>
+
+        <div class="sh">
+          <a href="">
+            <img src="./pc.jpg" alt="" class="home1" />
+            <p class="p1">PCs</p>
+          </a>
+          <a href="">
+            <img src="./dell.jpg" alt="" class="home1" />
+            <p class="p1">Laptops</p>
+          </a>
+        </div>
+      </div>
+
+      <div class="homesec">
+        <h1 class="headhome">Offers on Mobile,Iphone and More</h1>
+        <div class="hs">
+          <a href="">
+            <img src="./mobiles.jpg" alt="" class="home1" />
+            <p class="p1">Mobiles</p>
+          </a>
+
+          <a href="">
+            <img src="./iphone.avif" alt="" class="home1" />
+            <p class="p1">Iphones</p>
+          </a>
+
+          <a href="" class="p2"> Explore More -></a>
+        </div>
+
+        <div class="sh">
+          <a href="">
+            <img src="./smart watches.avif" alt="" class="home1" />
+            <p class="p1">Smart Watches</p>
+          </a>
+          <a href="">
+            <img src="./tablets.avif" alt="" class="home1" />
+            <p class="p1">Tablets</p>
+          </a>
+        </div>
+      </div>
+
+      <div class="homesec">
+        <h1 class="headhome">Combo Offers on Accessories</h1>
+        <div class="hs">
+          <a href="">
+            <img src="./pcandlap.webp" alt="" class="home1" />
+            <p class="p1">PCs,Laptops Items</p>
+          </a>
+
+          <a href="">
+            <img src="./mobilea.webp" alt="" class="home1" />
+            <p class="p1">Mobile Accessories</p>
+          </a>
+
+          <a href="" class="p2"> Explore More -></a>
+        </div>
+
+        <div class="sh">
+          <a href="">
+            <img src="./headphone.avif" alt="" class="home1" />
+            <p class="p1">Headphones</p>
+          </a>
+          <a href="">
+            <img src="./gaming.jpg" alt="" class="home1" />
+            <p class="p1">Gaming Items</p>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="homemain" id="decors">
+      <div class="homesec">
+        <h1 class="headhome">Sale on Sofas and Beds</h1>
+        <div class="hs">
+          <a href="">
+            <img src="./kingsize.jpeg" alt="" class="home1" />
+            <p class="p1">King Size Beds</p>
+          </a>
+
+          <a href="">
+            <img src="./queen size.webp" alt="" class="home1" />
+            <p class="p1">Queen Size Beds</p>
+          </a>
+
+          <a href="" class="p2"> Explore More -></a>
+        </div>
+
+        <div class="sh">
+          <a href="">
+            <img src="./wooden.jpg" alt="" class="home1" />
+            <p class="p1">Wooden Sofas</p>
+          </a>
+          <a href="">
+            <img src="./sleeper.webp" alt="" class="home1" />
+            <p class="p1">Sleeper Sofas</p>
+          </a>
+        </div>
+      </div>
+
+      <div class="homesec">
+        <h1 class="headhome">More on Home Decors</h1>
+        <div class="hs">
+          <a href="">
+            <img src="./paintings.jpg" alt="" class="home1" />
+            <p class="p1">Paintings</p>
+          </a>
+
+          <a href="">
+            <img src="./wall hanging decors.jpg" alt="" class="home1" />
+            <p class="p1">Wall Decorations</p>
+          </a>
+
+          <a href="" class="p2"> Explore More -></a>
+        </div>
+
+        <div class="sh">
+          <a href="">
+            <img src="./rugs.webp" alt="" class="home1" />
+            <p class="p1">Rugs</p>
+          </a>
+          <a href="">
+            <img src="./chimes.jpg" alt="" class="home1" />
+            <p class="p1">Decor items</p>
+          </a>
+        </div>
+      </div>
+
+      <div class="homesec" id="fashion1">
+        <h1 class="headhome">Discount on Furniture sets</h1>
+        <div class="hs">
+          <a href="">
+            <img src="./living.jpg" alt="" class="home1" />
+            <p class="p1">Living Room Sets</p>
+          </a>
+
+          <a href="">
+            <img src="./dinning.jpg" alt="" class="home1" />
+            <p class="p1">Dinning Sets</p>
+          </a>
+
+          <a href="" class="p2"> Explore More -></a>
+        </div>
+
+        <div class="sh">
+          <a href="">
+            <img src="./garden.jpg" alt="" class="home1" />
+            <p class="p1">Table and Chair Set</p>
+          </a>
+          <a href="">
+            <img src="./wallun.jpg" alt="" class="home1" />
+            <p class="p1">Wall Unit Sets</p>
+          </a>
+        </div>
+      </div>
+
+      <div class="homesec">
+        <h1 class="headhome">House Decoration Items on Sale</h1>
+        <div class="hs">
+          <a href="">
+            <img src="./wallwallpaper.jpg" alt="" class="home1" />
+            <p class="p1">Wall Wallpaper</p>
+          </a>
+
+          <a href="">
+            <img src="./photo frames.jpg" alt="" class="home1" />
+            <p class="p1">Photo Frames</p>
+          </a>
+
+          <a href="" class="p2"> Explore More -></a>
+        </div>
+
+        <div class="sh">
+          <a href="">
+            <img src="./Vase.jpg" alt="" class="home1" />
+            <p class="p1">Vases</p>
+          </a>
+          <a href="">
+            <img src="./plants.webp" alt="" class="home1" />
+            <p class="p1">Artificial Plants</p>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="homemain" id="bike">
+      <div class="homesec">
+        <h1 class="headhome">Sale on Headwear</h1>
+        <div class="hs">
+          <a href="">
+            <img src="./full helmets.jpg" alt="" class="home1" />
+            <p class="p1">Full Helmets</p>
+          </a>
+
+          <a href="">
+            <img src="./half helmets.jpg" alt="" class="home1" />
+            <p class="p1">Half Helmets</p>
+          </a>
+
+          <a href="" class="p2"> Explore More -></a>
+        </div>
+
+        <div class="sh">
+          <a href="">
+            <img src="./bandana.jpg" alt="" class="home1" />
+            <p class="p1">Bandanas</p>
+          </a>
+          <a href="">
+            <img src="./bikemask.jpg" alt="" class="home1" />
+            <p class="p1">Face Masks</p>
+          </a>
+        </div>
+      </div>
+
+      <div class="homesec">
+        <h1 class="headhome">Discount on Safety Gears</h1>
+        <div class="hs">
+          <a href="">
+            <img src="./bikejack.jpg" alt="" class="home1" />
+            <p class="p1">Jackets</p>
+          </a>
+
+          <a href="">
+            <img src="./knee.webp" alt="" class="home1" />
+            <p class="p1">Knee Pads</p>
+          </a>
+
+          <a href="" class="p2"> Explore More -></a>
+        </div>
+
+        <div class="sh">
+          <a href="">
+            <img src="./elbow.webp" alt="" class="home1" />
+            <p class="p1">Elbow Pads</p>
+          </a>
+          <a href="">
+            <img src="./safety tools.webp" alt="" class="home1" />
+            <p class="p1">Safety Tools</p>
+          </a>
+        </div>
+      </div>
+
+      <div class="homesec">
+        <h1 class="headhome">Discount on Bike Accessories</h1>
+        <div class="hs">
+          <a href="">
+            <img src="./mirrorbike.webp" alt="" class="home1" />
+            <p class="p1">Mirrors</p>
+          </a>
+
+          <a href="">
+            <img src="./horn.webp" alt="" class="home1" />
+            <p class="p1">Horns</p>
+          </a>
+
+          <a href="" class="p2"> Explore More -></a>
+        </div>
+
+        <div class="sh">
+          <a href="">
+            <img src="./bike lights.webp" alt="" class="home1" />
+            <p class="p1">Lights</p>
+          </a>
+          <a href="">
+            <img src="./biketyres.jpg" alt="" class="home1" />
+            <p class="p1">Tyres</p>
+          </a>
+        </div>
+      </div>
+
+      <div class="homesec">
+        <h1 class="headhome">Car Accessories on Sale</h1>
+        <div class="hs">
+          <a href="">
+            <img src="./seatcover.jpg" alt="" class="home1" />
+            <p class="p1">Seat Cover</p>
+          </a>
+
+          <a href="">
+            <img src="./holderphn.jpg" alt="" class="home1" />
+            <p class="p1">Phone Holders</p>
+          </a>
+
+          <a href="" class="p2"> Explore More -></a>
+        </div>
+
+        <div class="sh">
+          <a href="">
+            <img src="./cleaning tools.jpg" alt="" class="home1" />
+            <p class="p1">Cleaning Tools</p>
+          </a>
+          <a href="">
+            <img src="./carparts.webp" alt="" class="home1" />
+            <p class="p1">Parts</p>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="homemain" id="chua">
+      <div class="homesec">
+        <h1 class="headhome">Kids Items on sale</h1>
+        <div class="hs">
+          <a href="">
+            <img src="./kidscloth.jpg" alt="" class="home1" />
+            <p class="p1">Clothings</p>
+          </a>
+
+          <a href="">
+            <img src="./kidstoys.webp" alt="" class="home1" />
+            <p class="p1">Toys</p>
+          </a>
+
+          <a href="" class="p2"> Explore More -></a>
+        </div>
+
+        <div class="sh">
+          <a href="">
+            <img src="./mghchua.webp" alt="" class="home1" />
+            <p class="p1">Shoes</p>
+          </a>
+          <a href="">
+            <img src="./bookscua.jpg" alt="" class="home1" />
+            <p class="p1">Study Materials</p>
+          </a>
+        </div>
+      </div>
+
+      <div class="homesec">
+        <h1 class="headhome">Sale on Nursing and Feeding Items</h1>
+        <div class="hs">
+          <a href="">
+            <img src="./bibs.jpg" alt="" class="home1" />
+            <p class="p1">Bibs</p>
+          </a>
+
+          <a href="">
+            <img src="./babyfood.jpg" alt="" class="home1" />
+            <p class="p1">Baby Foods</p>
+          </a>
+
+          <a href="" class="p2"> Explore More -></a>
+        </div>
+
+        <div class="sh">
+          <a href="">
+            <img src="./bottle.jpg" alt="" class="home1" />
+            <p class="p1">Baby Bottles</p>
+          </a>
+          <a href="">
+            <img src="./boosterc.jpg" alt="" class="home1" />
+            <p class="p1">Booster Chairs</p>
+          </a>
+        </div>
+      </div>
+
+      <div class="homesec">
+        <h1 class="headhome">Baby Care items on Sale</h1>
+        <div class="hs">
+          <a href="">
+            <img src="./brushbaby.jpg" alt="" class="home1" />
+            <p class="p1">Brush</p>
+          </a>
+
+          <a href="">
+            <img src="./bshampoo.jpg" alt="" class="home1" />
+            <p class="p1">Shampoos</p>
+          </a>
+
+          <a href="" class="p2"> Explore More -></a>
+        </div>
+
+        <div class="sh">
+          <a href="">
+            <img src="./boils.webp" alt="" class="home1" />
+            <p class="p1">Oils</p>
+          </a>
+          <a href="">
+            <img src="./baby powder.jpg" alt="" class="home1" />
+            <p class="p1">Powders</p>
+          </a>
+        </div>
+      </div>
+
+      <div class="homesec">
+        <h1 class="headhome">More on Baby Care</h1>
+        <div class="hs">
+          <a href="">
+            <img src="./groomingsetb.webp" alt="" class="home1" />
+            <p class="p1">Grooming Sets</p>
+          </a>
+
+          <a href="">
+            <img src="./stroller.jpg" alt="" class="home1" />
+            <p class="p1">Stroller</p>
+          </a>
+
+          <a href="" class="p2"> Explore More -></a>
+        </div>
+
+        <div class="sh">
+          <a href="">
+            <img src="./gift.jpg" alt="" class="home1" />
+            <p class="p1">Gift Packs</p>
+          </a>
+          <a href="">
+            <img src="./bath toys.jpg" alt="" class="home1" />
+            <p class="p1">Bath Toys</p>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="homemain" id="rasan">
+      <div class="homesec">
+        <h1 class="headhome">Sale on Attas,Wheat and Oils</h1>
+        <div class="hs">
+          <a href="">
+            <img src="./atta.jpg" alt="" class="home1" />
+            <p class="p1">Atta</p>
+          </a>
+
+          <a href="">
+            <img src="./wheat.jpg" alt="" class="home1" />
+            <p class="p1">Wheat</p>
+          </a>
+
+          <a href="" class="p2"> Explore More -></a>
+        </div>
+
+        <div class="sh">
+          <a href="">
+            <img src="./rice.webp" alt="" class="home1" />
+            <p class="p1">Rice</p>
+          </a>
+          <a href="">
+            <img src="./oilscook.webp" alt="" class="home1" />
+            <p class="p1">Cooking Oil</p>
+          </a>
+        </div>
+      </div>
+
+      <div class="homesec">
+        <h1 class="headhome">Discount on Spices</h1>
+        <div class="hs">
+          <a href="">
+            <img src="./masalas.webp" alt="" class="home1" />
+            <p class="p1">Masalas</p>
+          </a>
+
+          <a href="">
+            <img src="./khada.jpg" alt="" class="home1" />
+            <p class="p1">Whole Spices</p>
+          </a>
+
+          <a href="" class="p2"> Explore More -></a>
+        </div>
+
+        <div class="sh">
+          <a href="">
+            <img src="./contbokk.webp" alt="" class="home1" />
+            <p class="p1">Containers</p>
+          </a>
+          <a href="">
+            <img src="./masala paste.webp" alt="" class="home1" />
+            <p class="p1">Masala Pastes</p>
+          </a>
+        </div>
+      </div>
+
+      <div class="homesec">
+        <h1 class="headhome">More on Groceries</h1>
+        <div class="hs">
+          <a href="">
+            <img src="./vege.webp" alt="" class="home1" />
+            <p class="p1">Vegetables</p>
+          </a>
+
+          <a href="">
+            <img src="./fruits.jpg" alt="" class="home1" />
+            <p class="p1">Fruits</p>
+          </a>
+
+          <a href="" class="p2"> Explore More -></a>
+        </div>
+
+        <div class="sh">
+          <a href="">
+            <img src="./dryfruits.jpg" alt="" class="home1" />
+            <p class="p1">Dry Fruits</p>
+          </a>
+          <a href="">
+            <img src="./snack.webp" alt="" class="home1" />
+            <p class="p1">Snack Items</p>
+          </a>
+        </div>
+      </div>
+
+      <div class="homesec">
+        <h1 class="headhome">Non-Veg Items on Offer</h1>
+        <div class="hs">
+          <a href="">
+            <img src="./chicken.webp" alt="" class="home1" />
+            <p class="p1">Chicken</p>
+          </a>
+
+          <a href="">
+            <img src="./mutton.webp" alt="" class="home1" />
+            <p class="p1">Mutton</p>
+          </a>
+
+          <a href="" class="p2"> Explore More -></a>
+        </div>
+
+        <div class="sh">
+          <a href="">
+            <img src="./fish.webp" alt="" class="home1" />
+            <p class="p1">Fish</p>
+          </a>
+          <a href="">
+            <img src="./eggs.webp" alt="" class="home1" />
+            <p class="p1">Eggs</p>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- Home SECTION ENDS -->
+    <!-- End AD Bar Starts -->
+    <div
+      id="carouselExampleAutoplaying1"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner1" style="overflow: hidden">
+        <div class="carousel-item active">
+          <img
+            src="./UNREC_Home_Fragrance_PC_3000x1200._CB595833664_.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./suit-yourself-desk-1july.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img src="./43_1622811821.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./Big-4-Fresh-to-Home-digital-ads.webp"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleAutoplaying1"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleAutoplaying1"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- End Ad Bar Ends -->
+    <!-- privacybar1 -->
+    <footer>
+      <a href="">
+        <h3>Privacy Policy</h3>
+      </a>
+      <a href="">
+        <h3>About us</h3>
+      </a>
+      <a href="">
+        <h3>TheWR0NG MART &copy; 2023</h3>
+      </a>
+      <a href="">
+        <h3>Legal</h3>
+      </a>
+      <a href="">
+        <h3>Terms of use</h3>
+      </a>
+      <a href="">
+        <h3>Support</h3>
+      </a>
+    </footer>
+    <!-- privacybar 2-->
+  </body>
+</html>
